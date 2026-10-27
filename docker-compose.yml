@@ -1,0 +1,20 @@
+services:
+  db:
+    image: pgvector/pgvector:pg17
+    container_name: probable-cause-db
+    environment:
+      POSTGRES_USER: pc
+      POSTGRES_PASSWORD: pc
+      POSTGRES_DB: probable_cause
+    ports:
+      # 5434 is taken on the dev machine; override with PC_DB_PORT if 5436 clashes too.
+      - "${PC_DB_PORT:-5436}:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pc -d probable_cause"]
+      interval: 2s
+      retries: 30
+
+volumes:
+  pgdata:

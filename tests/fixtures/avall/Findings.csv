@@ -1,0 +1,12 @@
+ev_id,Aircraft_Key,finding_no,finding_code,finding_description,category_no,subcategory_no,section_no,subsection_no,modifier_no,Cause_Factor,lchg_date,lchg_userid,cm_inPc
+20080107X00026,1,1,0204151045,Personnel issues-Action/decision-Info processing/decision-Identification/recognition-Pilot of other aircraft - C,02,04,15,10,45,C,2020-09-25 18:05:31,,T
+20080107X00026,2,1,0204151044,Personnel issues-Action/decision-Info processing/decision-Identification/recognition-Pilot - C,02,04,15,10,44,C,2020-09-25 18:05:31,,T
+20080210X00166,1,1,0303404599,Environmental issues-Conditions/weather/phenomena-Wind-Gusts-Not specified - F,03,03,40,45,99,F,2020-09-25 18:05:31,,T
+20080210X00166,1,2,0106201020,Aircraft-Aircraft oper/perf/capability-Performance/control parameters-Airspeed-Not attained/maintained - C,01,06,20,10,20,C,2020-09-25 18:05:31,,T
+20080710X01009,1,1,0500000000,Not determined-Not determined-(general)-(general)-Unknown/Not determined - C,05,00,00,00,00,C,2020-09-25 18:04:02,,T
+20210102102480,1,1,0303502582,Environmental issues-Conditions/weather/phenomena-Ceiling/visibility/precip-Clouds-Effect on operation,03,03,50,25,82,,2023-06-08 18:00:03,,F
+20210102102480,1,2,0303501582,Environmental issues-Conditions/weather/phenomena-Ceiling/visibility/precip-Low visibility-Effect on operation,03,03,50,15,82,,2023-06-08 18:00:03,,F
+20210102102480,1,3,0203101044,Personnel issues-Experience/knowledge-Experience/qualifications-Qualification/certification-Pilot,02,03,10,10,44,,2023-06-08 18:00:03,,F
+20210102102480,1,4,0206304044,Personnel issues-Task performance-Use of equip/info-Aircraft control-Pilot,02,06,30,40,44,,2023-06-08 18:00:03,,T
+20210102102480,1,5,0106201020,Aircraft-Aircraft oper/perf/capability-Performance/control parameters-Airspeed-Not attained/maintained,01,06,20,10,20,,2023-06-08 18:00:03,,T
+20210102102480,1,6,0106204220,Aircraft-Aircraft oper/perf/capability-Performance/control parameters-Angle of attack-Not attained/maintained,01,06,20,42,20,,2023-06-08 18:00:03,,T

@@ -1,0 +1,9 @@
+ev_id,Aircraft_Key,Occurrence_No,Occurrence_Code,Occurrence_Description,phase_no,eventsoe_no,Defining_ev,lchg_date,lchg_userid
+20080107X00026,1,1,550250,Landing Midair collision,550,250,1,2020-09-25 18:05:31,
+20080107X00026,2,1,350250,Initial climb Midair collision,350,250,1,2020-09-25 18:05:31,
+20080210X00166,1,1,551092,Landing-flare/touchdown Hard landing,551,092,1,2020-09-25 18:05:31,
+20080710X01009,1,1,450240,Maneuvering Loss of control in flight,450,240,1,2020-09-25 18:04:02,
+20080710X01009,1,2,650470,Uncontrolled descent Collision with terr/obj (non-CFIT) ,650,470,0,2020-09-25 18:04:02,
+20210102102480,1,1,504240,Approach-IFR missed approach Loss of control in flight,504,240,1,2023-06-08 18:00:03,
+20210102102480,1,2,650470,Uncontrolled descent Collision with terr/obj (non-CFIT) ,650,470,0,2023-06-08 18:00:03,
+20231009193207,1,1,990000,Unknown Unknown or undetermined,990,000,1,2023-12-04 18:10:38,

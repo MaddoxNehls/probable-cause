@@ -1,0 +1,249 @@
+Table,Column,code_iaids,meaning
+aircraft,acft_category,AIR,Airplane
+aircraft,acft_category,BALL,Balloon
+aircraft,acft_category,BLIM,Blimp
+aircraft,acft_category,GLI,Glider
+aircraft,acft_category,GYRO,Gyrocraft
+aircraft,acft_category,HELI,Helicopter
+aircraft,acft_category,PLFT,Powered-Lift
+aircraft,acft_category,ULTR,Ultralight
+aircraft,acft_category,UNK,Unknown
+aircraft,acft_category,,Powered parachute
+aircraft,acft_category,,Weight shift
+aircraft,homebuilt,N,No
+aircraft,homebuilt,U,Unknown
+aircraft,homebuilt,Y,Yes
+aircraft,damage,DEST,Destroyed
+aircraft,damage,MINR,Minor
+aircraft,damage,NONE,None
+aircraft,damage,SUBS,Substantial
+aircraft,damage,UNK,Unknown
+aircraft,far_part,091,Part 91: General Aviation
+aircraft,far_part,103,Part 103: Ultralight
+aircraft,far_part,105,Part 105: Parachute Jumping
+aircraft,far_part,121,Part 121: Air Carrier
+aircraft,far_part,125,"Part 125: 20+ Pax,6000+ lbs"
+aircraft,far_part,127,Part 127: Sched AirCar w/Heli.
+aircraft,far_part,129,Part 129: Foreign
+aircraft,far_part,133,Part 133: Rotorcraft Ext. Load
+aircraft,far_part,135,Part 135: Air Taxi & Commuter
+aircraft,far_part,137,Part 137: Agricultural
+aircraft,far_part,141,Part 141: Pilot Schools
+aircraft,far_part,091F,Part 91F: Special Flt Ops.
+aircraft,far_part,091K,Part 91 Subpart K: Fractional
+aircraft,far_part,ARMF,Armed Forces
+aircraft,far_part,NUSC,"Non-U.S., Commercial"
+aircraft,far_part,NUSN,"Non-U.S., Non-Commercial"
+aircraft,far_part,PUBF,Public Use - Federal
+aircraft,far_part,PUBL,Public Use - Local
+aircraft,far_part,PUBS,Public Use - State
+aircraft,far_part,PUBU,Public Use
+aircraft,far_part,UNK,Unknown
+aircraft,type_fly,AAPL,Aerial Application
+aircraft,type_fly,ADRP,Air Drop
+aircraft,type_fly,AIRM,Air Medical
+aircraft,type_fly,AOBV,Aerial Observation
+aircraft,type_fly,ASHO,Air Race/Show
+aircraft,type_fly,ATXA,Air Taxi Non-Sched.(135A)
+injury,inj_person_category,OCRW,Other Crew
+injury,inj_person_category,PAX,Passengers
+injury,inj_person_category,PLT,Pilot in Command
+injury,injury_level,FATL,Fatal
+injury,injury_level,MINR,Minor
+injury,injury_level,NONE,None
+injury,injury_level,SERS,Serious
+injury,injury_level,TOTL,Total
+Events_Sequence,Occurrence_Code,xxx091,Tailstrike
+Events_Sequence,Occurrence_Code,xxx092,Hard landing
+Events_Sequence,Occurrence_Code,xxx093,Dragged wing/rotor/float/other
+Events_Sequence,Occurrence_Code,xxx094,Landing gear collapse
+Events_Sequence,Occurrence_Code,xxx095,Landing gear not configured
+Events_Sequence,Occurrence_Code,xxx096,Nose over/nose down
+Events_Sequence,Occurrence_Code,xxx097,Roll over
+Events_Sequence,Occurrence_Code,xxx100,Air traffic event
+Events_Sequence,Occurrence_Code,xxx110,Cabin safety event
+Events_Sequence,Occurrence_Code,xxx120,Control flight into terr/obj
+Events_Sequence,Occurrence_Code,xxx130,Emergency descent initiated
+Events_Sequence,Occurrence_Code,xxx140,Engine shutdown
+Events_Sequence,Occurrence_Code,xxx150,Fire/smoke (non-impact)
+Events_Sequence,Occurrence_Code,152xxx,Standing-Engine(s) Start-up
+Events_Sequence,Occurrence_Code,153xxx,Standing-Engine(s) Operating
+Events_Sequence,Occurrence_Code,154xxx,Standing-Engine(s) Shutdown
+Events_Sequence,Occurrence_Code,200xxx,Pushback/Towing
+Events_Sequence,Occurrence_Code,201xxx,Pushback/Tow-Engine Not Oper
+Events_Sequence,Occurrence_Code,202xxx,Pushback/Tow-Engine Start-up
+Events_Sequence,Occurrence_Code,203xxx,Pushback/Tow-Engine Oper
+Events_Sequence,Occurrence_Code,204xxx,Pushback/Tow-Engine Shutdown
+Events_Sequence,Occurrence_Code,250xxx,Taxi
+Events_Sequence,Occurrence_Code,251xxx,Taxi-to Runway
+Events_Sequence,Occurrence_Code,252xxx,Taxi-into Takeoff Position
+Events_Sequence,Occurrence_Code,253xxx,Taxi-from Runway
+Events_Sequence,Occurrence_Code,300xxx,Takeoff
+Events_Sequence,Occurrence_Code,301xxx,Takeoff-Rejected Takeoff
+aircraft,type_fly,ATXC,Air Taxi Commuter
+aircraft,type_fly,ATXO,Air Taxi Oper./Large Aircraft
+aircraft,type_fly,ATXS,Air Taxi Sched./Not Commuter
+aircraft,type_fly,BANT,Banner Tow
+aircraft,type_fly,BUS,Business
+aircraft,type_fly,CRGO,All Cargo Carriers
+aircraft,type_fly,EXEC,Executive/Corporate
+aircraft,type_fly,FERY,Ferry
+aircraft,type_fly,FLTS,Flight Test
+aircraft,type_fly,EXLD,External Load
+aircraft,type_fly,FIRF,Fire Fighting
+aircraft,type_fly,GLDT,Glider Tow
+aircraft,type_fly,HIRE,For Hire
+aircraft,type_fly,ILGL,Illegal Cargo/Operation
+aircraft,type_fly,INDS,Industrial Special
+aircraft,type_fly,INST,Instructional
+aircraft,type_fly,OTH,Other
+aircraft,type_fly,OWRK,Other Work Use
+aircraft,type_fly,PERS,Personal
+aircraft,type_fly,POSI,Positioning
+aircraft,type_fly,PUBU,Public Use
+aircraft,type_fly,SCAC,Scheduled Air Carrier
+aircraft,type_fly,SCRH,Sched. Air Carrier Helicopter
+aircraft,type_fly,SITE,Site Seeing
+aircraft,type_fly,SKYD,Skydiving
+aircraft,type_fly,SUPP,Supplemental/Commercial Oper.
+aircraft,type_fly,TVLC,Travel Club
+aircraft,type_fly,UNK,Unknown
+events,light_cond,DAWN,Dawn
+events,light_cond,DAYL,Day
+events,light_cond,DUSK,Dusk
+events,light_cond,NBRT,Night/Bright
+events,light_cond,NDRK,Night/Dark
+events,light_cond,NITE,Night
+events,light_cond,NR,Not Reported
+events,ev_highest_injury,FATL,Fatal
+events,ev_highest_injury,MINR,Minor
+events,ev_highest_injury,NONE,None
+events,ev_highest_injury,SERS,Serious
+events,ev_highest_injury,UNK,Unknown
+events,ev_type,ACC,Accident
+events,ev_type,INC,Incident
+events,ev_type,OCC,Occurrence
+events,ev_type,UNK,Unknown Event Type
+events,wx_cond_basic,IMC,Instrument Meteorological Cond
+events,wx_cond_basic,UNK,Unknown
+events,wx_cond_basic,VMC,Visual Meteorological Cond
+Events_Sequence,Occurrence_Code,100xxx,Prior to Flight
+Events_Sequence,Occurrence_Code,150xxx,Standing
+Events_Sequence,Occurrence_Code,151xxx,Standing-Engine(s) Not Oper
+Events_Sequence,Occurrence_Code,350xxx,Initial Climb
+Events_Sequence,Occurrence_Code,400xxx,Enroute
+Events_Sequence,Occurrence_Code,401xxx,Enroute-Climb to cruise
+Events_Sequence,Occurrence_Code,402xxx,Enroute-Cruise
+Events_Sequence,Occurrence_Code,403xxx,Enroute-Change of cruise level
+Events_Sequence,Occurrence_Code,404xxx,Enroute-Descent
+Events_Sequence,Occurrence_Code,405xxx,Enroute-Holding (IFR)
+Events_Sequence,Occurrence_Code,450xxx,Maneuvering
+Events_Sequence,Occurrence_Code,451xxx,Maneuvering-Aerobatics
+Events_Sequence,Occurrence_Code,452xxx,Maneuvering-Low-alt flying
+Events_Sequence,Occurrence_Code,453xxx,Maneuvering-Hover
+Events_Sequence,Occurrence_Code,500xxx,Approach
+Events_Sequence,Occurrence_Code,501xxx,Approach-IFR Initial Approach
+Events_Sequence,Occurrence_Code,502xxx,Approach-IFR Final Approach
+Events_Sequence,Occurrence_Code,503xxx,Approach-Circling (IFR)
+Events_Sequence,Occurrence_Code,504xxx,Approach-IFR Missed Approach
+Events_Sequence,Occurrence_Code,505xxx,Approach-VFR Pattern Crosswind
+Events_Sequence,Occurrence_Code,506xxx,Approach-VFR Pattern Downwind
+Events_Sequence,Occurrence_Code,507xxx,Approach-VFR Pattern Base
+Events_Sequence,Occurrence_Code,508xxx,Approach-VFR Pattern Final
+Events_Sequence,Occurrence_Code,509xxx,Approach-VFR Go-Around
+Events_Sequence,Occurrence_Code,550xxx,Landing
+Events_Sequence,Occurrence_Code,551xxx,Landing-Flare/Touchdown
+Events_Sequence,Occurrence_Code,552xxx,Landing-Landing Roll
+Events_Sequence,Occurrence_Code,600xxx,Emergency Descent
+Events_Sequence,Occurrence_Code,650xxx,Uncontrolled Descent
+Events_Sequence,Occurrence_Code,700xxx,Post-Impact
+Events_Sequence,Occurrence_Code,750xxx,After Landing
+Events_Sequence,Occurrence_Code,800xxx,Other
+Events_Sequence,Occurrence_Code,990xxx,Unknown
+Events_Sequence,Occurrence_Code,xxx000,Unknown or undetermined
+Events_Sequence,Occurrence_Code,xxx010,Aircraft loading event
+Events_Sequence,Occurrence_Code,xxx020,Aircraft servicing event
+Events_Sequence,Occurrence_Code,xxx030,Preflight or dispatch event
+Events_Sequence,Occurrence_Code,xxx040,Aircraft maintenance event
+Events_Sequence,Occurrence_Code,xxx050,Aircraft inspection event
+Events_Sequence,Occurrence_Code,xxx060,Attempted remediation/recovery
+Events_Sequence,Occurrence_Code,xxx070,Airport occurrence
+Events_Sequence,Occurrence_Code,xxx080,Ground handling event
+Events_Sequence,Occurrence_Code,xxx081,AC/prop/rotor contact w person
+Events_Sequence,Occurrence_Code,xxx082,Prop/jet/rotor blast/suction
+Events_Sequence,Occurrence_Code,xxx090,Abnormal runway contact
+Events_Sequence,Occurrence_Code,xxx160,Explosion (non-impact)
+Events_Sequence,Occurrence_Code,xxx170,Fire/smoke (post-impact)
+Events_Sequence,Occurrence_Code,xxx180,Explosion (post-impact)
+Events_Sequence,Occurrence_Code,xxx190,Fuel related
+Events_Sequence,Occurrence_Code,xxx191,Fuel starvation
+Events_Sequence,Occurrence_Code,xxx192,Fuel exhaustion
+Events_Sequence,Occurrence_Code,xxx193,Fuel contamination
+Events_Sequence,Occurrence_Code,xxx194,Wrong fuel
+Events_Sequence,Occurrence_Code,xxx200,Ground collision
+Events_Sequence,Occurrence_Code,xxx210,Icing encounter
+Events_Sequence,Occurrence_Code,xxx220,Low altitude operations
+Events_Sequence,Occurrence_Code,xxx230,Loss of control on ground
+Events_Sequence,Occurrence_Code,xxx231,Dynamic Rollover
+Events_Sequence,Occurrence_Code,xxx232,Ground resonance
+Events_Sequence,Occurrence_Code,xxx240,Loss of control in flight
+Events_Sequence,Occurrence_Code,xxx241,Aerodynamic stall/spin
+Events_Sequence,Occurrence_Code,xxx243,Retreating blade stall
+Events_Sequence,Occurrence_Code,xxx244,Settling with power/vortex ring state
+Events_Sequence,Occurrence_Code,xxx245,Mast bumping
+Events_Sequence,Occurrence_Code,xxx250,Midair collision
+Events_Sequence,Occurrence_Code,xxx260,Near midair collision
+Events_Sequence,Occurrence_Code,xxx270,Abrupt maneuver
+Events_Sequence,Occurrence_Code,xxx271,Inflight upset
+Events_Sequence,Occurrence_Code,xxx280,Course deviation
+Events_Sequence,Occurrence_Code,xxx290,Altitude deviation
+Events_Sequence,Occurrence_Code,xxx300,Runway excursion
+Events_Sequence,Occurrence_Code,xxx310,Runway incursion animal
+Events_Sequence,Occurrence_Code,xxx320,Runway incursion veh/AC/person
+Events_Sequence,Occurrence_Code,xxx330,Sys/Comp malf/fail (non-power)
+Events_Sequence,Occurrence_Code,xxx331,Pressure/environ sys malf/fail
+Events_Sequence,Occurrence_Code,xxx332,Electrical system malf/failure
+Events_Sequence,Occurrence_Code,xxx333,Flight control sys malf/fail
+Events_Sequence,Occurrence_Code,xxx334,Flight instrument malf/fail
+Events_Sequence,Occurrence_Code,xxx335,Nav system malfunction/failure
+Events_Sequence,Occurrence_Code,xxx336,Comm system malf/failure
+Events_Sequence,Occurrence_Code,xxx337,Aircraft structural failure
+Events_Sequence,Occurrence_Code,xxx338,Part(s) separation from AC
+Events_Sequence,Occurrence_Code,xxx340,Powerplant sys/comp malf/fail
+Events_Sequence,Occurrence_Code,xxx341,Loss of engine power (total)
+Events_Sequence,Occurrence_Code,xxx342,Loss of engine power (partial)
+Events_Sequence,Occurrence_Code,xxx343,Uncontained engine failure
+Events_Sequence,Occurrence_Code,xxx350,Security/criminal event
+Events_Sequence,Occurrence_Code,xxx360,Turbulence encounter
+Events_Sequence,Occurrence_Code,xxx361,Aircraft wake turb encounter
+Events_Sequence,Occurrence_Code,xxx362,Clear air turbulence encounter
+Events_Sequence,Occurrence_Code,xxx370,Landing area undershoot
+Events_Sequence,Occurrence_Code,xxx380,Landing area overshoot
+Events_Sequence,Occurrence_Code,xxx390,Windshear or thunderstorm
+Events_Sequence,Occurrence_Code,xxx400,Other weather encounter
+Events_Sequence,Occurrence_Code,xxx401,VFR encounter with IMC
+Events_Sequence,Occurrence_Code,xxx402,Loss of visual reference
+Events_Sequence,Occurrence_Code,xxx410,Terrain avoidance alert
+Events_Sequence,Occurrence_Code,xxx420,Collision avoidance alert
+Events_Sequence,Occurrence_Code,xxx430,Stall warn/stick-shaker/pusher
+Events_Sequence,Occurrence_Code,xxx440,Off-field or emergency landing
+Events_Sequence,Occurrence_Code,xxx441,Ditching
+Events_Sequence,Occurrence_Code,xxx450,Hazardous material leak/spill
+Events_Sequence,Occurrence_Code,xxx460,Evacuation
+Events_Sequence,Occurrence_Code,xxx470,Collision with terr/obj (non-CFIT)
+Events_Sequence,Occurrence_Code,xxx480,External load event (Rotorcraft)
+Events_Sequence,Occurrence_Code,xxx490,Collision during takeoff/land
+Events_Sequence,Occurrence_Code,xxx500,Loss of lift
+Events_Sequence,Occurrence_Code,xxx510,Glider tow event
+Events_Sequence,Occurrence_Code,xxx600,Simulated/training event
+Events_Sequence,Occurrence_Code,xxx900,Miscellaneous/other
+Events_Sequence,Occurrence_Code,xxx901,Birdstrike
+Events_Sequence,Occurrence_Code,xxx990,Missing aircraft
+injury,inj_person_category,ABRD,Aboard
+injury,inj_person_category,CABN,Cabin Crew
+injury,inj_person_category,CPLT,Co-Pilot
+injury,inj_person_category,DSTU,Dual Student
+injury,inj_person_category,FENG,Flight Engineer
+injury,inj_person_category,FLTI,Flight Instructor
+injury,inj_person_category,KPLT,Check Pilot
+Events_Sequence,Occurrence_Code,xxx242,Loss of tail rotor effectiveness
