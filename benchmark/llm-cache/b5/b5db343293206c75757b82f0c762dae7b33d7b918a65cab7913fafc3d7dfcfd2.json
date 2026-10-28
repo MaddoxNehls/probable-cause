@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The NTSB probable cause for the August 28, 2021 Maule MXT-7-180 accident at Troy, AL was the pilot's failure to maintain directional control while landing, which resulted in a collision with terrain [20210830103774:probable_cause]. The excerpt does not describe the right wing lifting, the left slip, the tree strike, or the inverted final position, so it does not explain those details individually [20210830103774:probable_cause].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 1121,
+  "output_tokens": 332,
+  "cost_usd": 0.0078
+ }
+}

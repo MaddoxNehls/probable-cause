@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Only one fatal helicopter accident in Arizona in 2018 appears in the excerpts: the Airbus Helicopters EC130 B4, N155GC, near Peach Springs on February 10, 2018 (NTSB WPR18MA087). It was an air tour flight, and five passengers were fatally injured while the pilot and one passenger were seriously injured [20180210X14603:factual]. The other 2018 Arizona fatal accidents in the excerpts involved airplanes, not helicopters [20181116X04602:factual][20180819X22149:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4990,
+  "output_tokens": 310,
+  "cost_usd": 0.023056
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Based on the excerpts, three 2023 accidents fit: Cleveland, TX; San Diego, CA; and Rayville, LA. The Cleveland, TX airplane struck trees on final approach during a night flight when instrument meteorological conditions prevailed [20230130106657:probable_cause]. The San Diego pilot flew a night ILS approach in IFR conditions, reported a missed approach, and the airplane later crashed after running out of fuel [20231116193391:analysis][20231116193391:probable_cause]. The Rayville airplane was approaching its destination airport and likely encountered instrument meteorological conditions, and the analysis places the accident after sunset, so I counted it as night, though that is an inference [20230707192556:analysis][20230707192556:probable_cause]. I did not count the Independence, OR accident because it involved IMC on a landing approach but the excerpts do not state that it happened at night [20231217193533:analysis]. This count covers only the events in the excerpts.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4909,
+  "output_tokens": 843,
+  "cost_usd": 0.028062
+ }
+}

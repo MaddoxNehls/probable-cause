@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Among the excerpts, only one 2022 accident involved a night instrument approach in instrument meteorological conditions: the March 9, 2022 Cessna 182Q accident in Panama City, FL, where the pilot deviated from the final approach course in low instrument meteorological conditions at night and struck wooded terrain [20220309104744:analysis]. The excerpts describe this as an approach and do not say it occurred during the landing phase, so none is explicitly confirmed as a landing accident. The other 2022 accident, the December 5, 2022 Cessna 210 accident in Cleburne, TX, involved night instrument conditions encountered during departure, not landing [20221205106408:analysis]. This count covers only the events in the provided excerpts.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3875,
+  "output_tokens": 664,
+  "cost_usd": 0.022136
+ }
+}

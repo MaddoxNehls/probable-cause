@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Only one fatal helicopter accident in North Carolina in 2020 appears in the excerpts: the June 18, 2020 Robinson R66 accident near Pikeville, in which the pilot was fatally injured [20200618X83813:factual]. It was a Part 137 aerial application flight, and the helicopter struck a non-energized \\\"dove wire\\\" while spraying a field [20200618X83813:factual]. The other North Carolina helicopter accidents in the excerpts occurred in other years (2019, 2021 and 2025), and the 2020 Swansboro accident involved an airplane [20191018X65951:factual][20210428102994:factual][20250225199757:factual][20200324X34735:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5117,
+  "output_tokens": 340,
+  "cost_usd": 0.023864
+ }
+}

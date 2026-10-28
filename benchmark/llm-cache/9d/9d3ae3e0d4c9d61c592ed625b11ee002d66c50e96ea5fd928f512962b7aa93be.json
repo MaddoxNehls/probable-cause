@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The excerpts do not show water in the fuel causing any engine failure. In the Stockbridge, GA PA-23 accident, the fueler reported that the fuel supply had been tested twice with negative results for water contamination [20220613105240:analysis]. The reason for the total loss of right engine power in that accident could not be determined [20220613105240:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3009,
+  "output_tokens": 136,
+  "cost_usd": 0.013392000000000001
+ }
+}

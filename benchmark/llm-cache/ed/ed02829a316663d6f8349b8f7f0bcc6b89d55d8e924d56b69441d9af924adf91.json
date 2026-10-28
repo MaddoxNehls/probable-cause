@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The pilot used excessive aft pitch control during rotation, which resulted in a higher-than-normal pitch attitude after liftoff and caused the airplane to exceed its critical angle of attack and enter an aerodynamic stall shortly after liftoff [20190811X63554:analysis][20190811X63554:factual]. About 15 seconds after liftoff the pilot felt the airplane shudder and begin to descend, and decreasing pitch did not stop the descent, so he made an immediate landing in a plant nursery about 0.5 mile from the departure end of the runway [20190811X63554:factual]. The pilot reported no mechanical malfunctions or failures that would have precluded normal operation [20190811X63554:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4655,
+  "output_tokens": 261,
+  "cost_usd": 0.021226000000000002
+ }
+}

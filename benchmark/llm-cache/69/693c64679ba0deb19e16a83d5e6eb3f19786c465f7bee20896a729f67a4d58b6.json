@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The injuries occurred when Delta flight 175 encountered severe convectively induced turbulence during descent into Atlanta after unintentionally flying into rapidly developing cumulus clouds [20230830192959:analysis]. The rapid cloud buildup and lack of associated precipitation meant the turbulence risk was not apparent on aircraft weather radar or air traffic control scopes [20230830192959:factual]. The injuries were sustained from impacting the ceiling or overhead panel and falling back to the floor or seat during the turbulence [20230830192959:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4521,
+  "output_tokens": 208,
+  "cost_usd": 0.020159999999999997
+ }
+}

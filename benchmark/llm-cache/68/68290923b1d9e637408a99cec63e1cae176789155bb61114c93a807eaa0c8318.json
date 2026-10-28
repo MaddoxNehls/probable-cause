@@ -1,0 +1,10 @@
+{
+ "tag": "judge/section+hybrid+rerank+rewrite/0",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"L012\",\"correct\":true,\"reason\":\"Same cause: inadvertent selection of fuel selector to off causing fuel starvation.\"},{\"id\":\"L023\",\"correct\":true,\"reason\":\"Failure to set throttle friction lock plus parking brake malfunction; matches.\"},{\"id\":\"L034\",\"correct\":true,\"reason\":\"High density altitude and gusty winds degraded performance; contributing pilot factors match.\"},{\"id\":\"L045\",\"correct\":false,\"reason\":\"Answer says no determined cause and does not identify the pilot's decision to depart on a contaminated runway or failure to abort timely.\"},{\"id\":\"L056\",\"correct\":true,\"reason\":\"Aerodynamic stall from loss of airspeed while maneuvering at low altitude; matches.\"},{\"id\":\"L078\",\"correct\":true,\"reason\":\"Improper landing flare and remedial action causing hard bounced landing; matches.\"},{\"id\":\"L089\",\"correct\":true,\"reason\":\"Catastrophic engine failure from oil starvation; matches.\"},{\"id\":\"L133\",\"correct\":true,\"reason\":\"Gives pilot's loss of control during climb out resulting in tree collision; matches the reference.\"},{\"id\":\"S001\",\"correct\":true,\"reason\":\"Identifies one fatal Part 121 accident in 2018 (Southwest 1380), consistent with DCA18MA142.\"},{\"id\":\"S014\",\"correct\":true,\"reason\":\"Identifies WPR18MA087 as the only one.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Covers carb icing in conducive conditions at glide power and failure to use carb heat.\"},{\"id\":\"A002\",\"correct\":true,\"reason\":\"Spatial disorientation after entering IMC, loss of control, fatal, non-instrument-rated pilots; consistent.\"},{\"id\":\"A003\",\"correct\":true,\"reason\":\"Water contamination causing power loss, tied to inadequate preflight inspection; matches.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5133,
+  "output_tokens": 643,
+  "cost_usd": 0.026958
+ }
+}

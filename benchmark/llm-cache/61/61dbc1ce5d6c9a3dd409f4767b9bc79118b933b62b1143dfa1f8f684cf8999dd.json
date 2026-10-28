@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The pilot reported a rough running engine followed by a total loss of power in cruise flight at 7,500 ft, and the airplane then hit wooded terrain about 15 miles from Charlottesville-Albemarle airport [20220915105942:factual]. The postaccident engine examination found that the crankshaft could not be rotated by hand [20220915105942:factual]. The Nos. 3, 4, 5, and 6 connecting rod journals were blackened, scored, melted, and missing base metal, which indicates severe internal engine damage [20220915105942:factual]. Oil feed areas from the main journals to the connecting rod journals were free of obstructions, and a crack in the oil sump showed overstress features consistent with impact forces and thermal stress, with no fatigue [20220915105942:factual]. The excerpts do not include the NTSB's stated probable cause, so the underlying reason for the connecting rod journal damage is not given [20220915105942:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4993,
+  "output_tokens": 645,
+  "cost_usd": 0.026417999999999997
+ }
+}

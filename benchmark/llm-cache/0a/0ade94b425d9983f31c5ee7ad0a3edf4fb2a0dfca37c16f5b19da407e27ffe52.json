@@ -1,0 +1,10 @@
+{
+ "tag": "judge/parent_child+hybrid+rerank+rewrite/0",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"L023\",\"correct\":true,\"reason\":\"Matches: failure to set throttle friction lock, parking brake malfunction of undetermined cause.\"},{\"id\":\"L045\",\"correct\":false,\"reason\":\"Gives only pilot's account, says no determined cause; omits pilot's decision to depart contaminated runway and failure to abort timely.\"},{\"id\":\"L056\",\"correct\":true,\"reason\":\"Aerodynamic stall after loss of airspeed while maneuvering at low altitude matches the reference.\"},{\"id\":\"L078\",\"correct\":true,\"reason\":\"States probable cause as improper landing flare and remedial action resulting in hard, bounced landing.\"},{\"id\":\"L089\",\"correct\":true,\"reason\":\"Catastrophic engine failure from oil starvation causing total power loss at night over mountains.\"},{\"id\":\"S001\",\"correct\":true,\"reason\":\"Count of 1 matches, Southwest 1380 is DCA18MA142.\"},{\"id\":\"S040\",\"correct\":false,\"reason\":\"Answered 3 versus the correct 6.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Captures carb ice conditions and failure to apply carb heat in time.\"},{\"id\":\"A002\",\"correct\":false,\"reason\":\"Attributes to IMC and spatial disorientation, but fails to convey that these are typically fatal and hedges on frequency; misses the VFR into IMC and weather planning themes. Reference says typically fatal.\"},{\"id\":\"A003\",\"correct\":true,\"reason\":\"Water contamination caused power loss, tied to inadequate preflight inspection and fueling issues.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4152,
+  "output_tokens": 532,
+  "cost_usd": 0.021924
+ }
+}

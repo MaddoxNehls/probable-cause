@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Counting only the excerpts provided, the count is zero. The only accident dated 2023 is the 2023-08-04 night flight over open water, and it diverged from its on-course heading while climbing to its assigned altitude on the return leg, about 7 minutes after a practice approach and missed approach [20230808192822:factual]. The other night instrument-condition approach accidents in the excerpts occurred in 2020 and 2022 [20220309104744:analysis][20200829X95443:analysis][20200913X42027:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3735,
+  "output_tokens": 563,
+  "cost_usd": 0.020566
+ }
+}

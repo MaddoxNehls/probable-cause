@@ -1,0 +1,98 @@
+{
+ "configs": {
+  "fixed+bm25": {
+   "all": {
+    "n": 26,
+    "correct": 0.46153846153846156,
+    "recall@5": 0.4942307692307692,
+    "recall@10": 0.5352564102564102,
+    "recall@20": 0.566025641025641,
+    "mrr": 0.4762529137529138,
+    "ndcg@10": 0.4690273224776248,
+    "citation_validity": 1.0,
+    "n_citation_validity": 15,
+    "citation_precision": 0.8866666666666667,
+    "n_citation_precision": 15,
+    "supported_fraction": 0.7977777777777778,
+    "n_supported_fraction": 15,
+    "gold_citation_rate": 0.6833333333333333,
+    "n_gold_citation_rate": 15
+   },
+   "lookup": {
+    "n": 13,
+    "correct": 0.38461538461538464,
+    "recall@5": 0.6923076923076923,
+    "recall@10": 0.6923076923076923,
+    "recall@20": 0.7692307692307693,
+    "mrr": 0.6993006993006994,
+    "ndcg@10": 0.6923076923076923,
+    "citation_validity": 1.0,
+    "n_citation_validity": 7,
+    "citation_precision": 0.9714285714285714,
+    "n_citation_precision": 7,
+    "supported_fraction": 0.9523809523809524,
+    "n_supported_fraction": 7,
+    "gold_citation_rate": 1.0,
+    "n_gold_citation_rate": 7
+   },
+   "structured": {
+    "n": 8,
+    "correct": 0.375,
+    "recall@5": 0.28125,
+    "recall@10": 0.4270833333333333,
+    "recall@20": 0.4270833333333333,
+    "mrr": 0.16145833333333331,
+    "ndcg@10": 0.20585720564919255,
+    "citation_validity": 1.0,
+    "n_citation_validity": 5,
+    "citation_precision": 0.7,
+    "n_citation_precision": 5,
+    "supported_fraction": 0.5666666666666667,
+    "n_supported_fraction": 5,
+    "gold_citation_rate": 0.31666666666666665,
+    "n_gold_citation_rate": 5
+   },
+   "analytical": {
+    "n": 5,
+    "correct": 0.8,
+    "recall@5": 0.32,
+    "recall@10": 0.3,
+    "recall@20": 0.26,
+    "mrr": 0.4,
+    "ndcg@10": 0.30957054784494087,
+    "citation_validity": 1.0,
+    "n_citation_validity": 3,
+    "citation_precision": 1.0,
+    "n_citation_precision": 3,
+    "supported_fraction": 0.8222222222222223,
+    "n_supported_fraction": 3,
+    "gold_citation_rate": 0.5555555555555555,
+    "n_gold_citation_rate": 3
+   },
+   "latency_ms": {
+    "p50": 10.984100008499809,
+    "p95": 14.909399978932925,
+    "mean": 28.703861537416323
+   },
+   "refusal_rate": 0.46153846153846156,
+   "generation_calls": 25,
+   "cost_usd": 0.5100899999999999,
+   "cost_per_question_usd": 0.01961884615384615
+  }
+ },
+ "generation_usage": {
+  "calls": 25,
+  "input_tokens": 112205,
+  "output_tokens": 6137,
+  "cost_usd": 0.5100899999999999,
+  "seconds": 0.0726161999773467
+ },
+ "judge_usage": {
+  "calls": 1,
+  "input_tokens": 5348,
+  "output_tokens": 708,
+  "cost_usd": 0.028468,
+  "seconds": 0.00028619999648071826
+ },
+ "wall_clock_s": 0.7269444000121439
+}

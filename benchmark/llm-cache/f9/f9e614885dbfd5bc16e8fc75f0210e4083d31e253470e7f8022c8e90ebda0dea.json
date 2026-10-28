@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Only one fatal glider accident in Washington in 2019 appears in the excerpts: the August 25, 2019 accident of a Glaser-Dirks DG 300 glider (N300GG) near Buckley/Wilkeson, Washington, in which the pilot was fatally injured [20190826X65749:factual]. The other Washington 2019 fatal accident in the excerpts involved a Cessna 182 airplane, not a glider, so it does not count [20191116X51416:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4993,
+  "output_tokens": 181,
+  "cost_usd": 0.021778
+ }
+}

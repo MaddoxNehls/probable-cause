@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": true, \"answer\": \"Insufficient evidence.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3602,
+  "output_tokens": 270,
+  "cost_usd": 0.017104
+ }
+}

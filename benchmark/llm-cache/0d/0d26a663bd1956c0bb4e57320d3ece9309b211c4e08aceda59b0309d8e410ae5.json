@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Only one such accident appears in the excerpts: NTSB case WPR18MA087, involving an Airbus Helicopters (Eurocopter) EC130 B4, N155GC, near Peach Springs, Arizona, on February 10, 2018 [20180210X14603:factual]. The helicopter was destroyed, five passengers were fatally injured, and the pilot and one passenger were seriously injured [20180210X14603:factual]. It was operated as a Part 136 air tour flight [20180210X14603:factual]. This count covers only the events present in the excerpts, which do not establish whether other fatal helicopter accidents occurred in Arizona in 2018.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4838,
+  "output_tokens": 239,
+  "cost_usd": 0.021738
+ }
+}

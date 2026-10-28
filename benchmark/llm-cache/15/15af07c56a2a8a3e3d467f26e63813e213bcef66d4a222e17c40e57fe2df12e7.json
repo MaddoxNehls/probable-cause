@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The left main gear spring assembly fractured during the takeoff roll and separated from the fuselage, so the airplane veered left off the runway. [20230921193112:factual] Ground contact then substantially damaged the left horizontal stabilizer and elevator. [20230921193112:analysis] The NTSB found the assembly failed due to fatigue cracking and overload stresses, with corrosion under the primer paint likely initiating the fatigue crack. [20230921193112:analysis] Records showed the gear springs were heat treated, shot peened and painted with zinc-rich primer in March 2010, and the corrosion was likely not adequately removed before the primer was applied. [20230921193112:analysis] The probable cause was failure of the left main landing gear spring assembly due to a fatigue crack, with improper maintenance that allowed corrosion to develop contributing. [20230921193112:probable_cause]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4322,
+  "output_tokens": 315,
+  "cost_usd": 0.020434
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The excerpts do not give a formal probable cause, but they point to high density altitude reducing climb performance. The calculated density altitude near the time of the accident was 9,360 ft, which would have reduced the airplane's climb performance [20191020X24101:analysis]. The departure was from a high-elevation airport, and the pilot had said he wanted to depart south and head back toward the airport to gain altitude because of the wind [20191020X24101:factual]. An eyewitness saw the airplane appear to struggle to remain in flight, and other witnesses described it as unstable [20191020X24101:analysis]. The airplane then pitched up and turned west to avoid power lines, and it hit trees, a building and terrain [20191020X24101:analysis]. The analysis says it is likely the pilot was maneuvering to land on the road [20191020X24101:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4695,
+  "output_tokens": 443,
+  "cost_usd": 0.023206
+ }
+}

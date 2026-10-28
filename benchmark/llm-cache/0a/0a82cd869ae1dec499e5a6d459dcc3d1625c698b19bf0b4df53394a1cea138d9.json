@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The student pilot's incorrect collective and cyclic applications during landing, combined with the flight instructor's delayed remedial action, resulted in the roll-over [20191007X23255:factual]. The student lowered the collective suddenly and then pulled it back up suddenly, and also grabbed the cyclic and pulled aft while increasing the collective [20191007X23255:factual]. The helicopter then bounced on the platform and tilted backward, rolled onto its right side, and the main rotor blades struck the ground [20191007X23255:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4405,
+  "output_tokens": 198,
+  "cost_usd": 0.019596
+ }
+}

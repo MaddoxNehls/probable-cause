@@ -3,9 +3,20 @@
 Ask questions about almost two decades of NTSB aviation accident investigations. Every answer
 cites its sources, and the retrieval pipeline is chosen by benchmark, not by vibes.
 
-> **Status: milestone 1 of 5.** Data ingest, structured database, text extraction, and a lexical
-> baseline search are done. Chunking strategies, embeddings, the chat UI and the benchmark are
-> next. See [`docs/spec.md`](docs/spec.md).
+> **Status: milestones 1-3 of 5.** Ingest, three chunking strategies, local embeddings,
+> BM25/dense/hybrid retrieval with reranking and LLM query rewriting, a cited-answer API with
+> a citation verifier, and a 289-question benchmark with results are done. The chat UI and
+> deployment are next. See [`docs/spec.md`](docs/spec.md).
+
+## Benchmark headline
+
+Recall@10 on 284 answerable questions went from **0.523** (fixed-size chunks + BM25) to
+**0.913** (section-aware chunks + hybrid + cross-encoder rerank + LLM query rewrite). Almost
+all of that came from rewriting questions into structured filters; chunking moved recall by
+at most 0.04. Full grid, end-to-end answer quality, judge calibration (kappa 0.91 against
+hand labels), timings and caveats: [`docs/results.md`](docs/results.md).
+
+![Recall@10 grid](docs/img/retrieval-grid.png)
 
 ## The data story
 
@@ -47,7 +58,7 @@ Full numbers: [`docs/data-quality.md`](docs/data-quality.md). Source decision an
 | Text documents (factual, analysis, probable cause, plus 25 PDFs) | 67,692 |
 | Years covered | 2008-2026 |
 | Events with a probable cause (all / NTSB-led) | 78.6% / 94.9% |
-| Postgres database size | 419 MB |
+| Postgres database size | 419 MB after ingest; 1.9 GB with chunks and vectors |
 
 ## Reproduce
 
@@ -85,6 +96,24 @@ The baseline also shows why later milestones exist. `pc search "icing fatal part
 "fatal" and "part 91" as words, so it ranks a crash on *sea ice* near Nome first. Those terms
 belong in structured filters (`events.highest_injury`, `aircraft.far_part`), which is exactly
 what the LLM query-rewriting experiment in milestone 4 is meant to measure.
+
+## Ask a question
+
+```bash
+uv run pc index chunk && uv run pc index embed && uv run pc index build   # ~45 min on CPU
+uv run uvicorn probable_cause.api:app --port 8000
+curl -s localhost:8000/ask -H 'content-type: application/json'   -d '{"question": "What usually leads to carburetor icing accidents?"}'
+curl -s localhost:8000/events/20210102102480
+```
+
+`POST /ask` returns the answer with inline `[ev_id:section]` citations, the cited events
+(date, NTSB number, snippet, report or docket link), the verifier's verdict for every
+sentence, and a debug block: the rewritten query and filters, the size of the filter set,
+every candidate chunk with its BM25/dense/RRF/rerank ranks and scores, reranker movements,
+the refusal signal and per-stage timings. The LLM backend comes from `PC_LLM_BACKEND`
+(`claude-cli`, the default, runs `claude -p --model claude-sonnet-5-5`; also `anthropic`,
+`openrouter` and `replay`). Every completion is cached on disk, and live calls are capped by
+`PC_LLM_MAX_CALLS`. Tracewright tracing is optional (`uv sync --extra tracing`).
 
 ## Architecture
 

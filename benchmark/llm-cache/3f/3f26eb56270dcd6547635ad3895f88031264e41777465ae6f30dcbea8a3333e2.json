@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Based on the excerpts provided, one fatal weight-shift trike accident in Arizona in 2024 appears: NTSB case WPR24FA112 on March 17, 2024, near Gila Bend Municipal Airport, involving an experimental amateur-built Air Creation Twin weight-shift-control aircraft, N4425L. [20240317193945:factual] The pilot sustained fatal injuries and the passenger sustained minor injuries. [20240317193945:factual] The probable cause was the pilot's loss of control and subsequent collision with a mesquite tree on approach to land. [20240317193945:probable_cause] This count covers only the events present in the excerpts.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3357,
+  "output_tokens": 242,
+  "cost_usd": 0.015844
+ }
+}

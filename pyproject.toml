@@ -5,21 +5,40 @@ description = "Benchmarked RAG over NTSB aviation accident investigations"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "bm25s>=0.3.15",
+    "fastapi>=0.162.0",
+    "fastembed>=0.9.1",
     "httpx>=0.28",
+    "numpy>=2.5.4",
     "psycopg[binary]>=3.2",
+    "pydantic>=2.14.1",
     "pypdf[crypto]>=5.1",
+    "pystemmer>=3.1.0",
+    "pyyaml>=6.0.3",
+    "tqdm>=4.70.1",
     "typer>=0.15",
+    "uvicorn>=0.54.0",
 ]
+
+[project.optional-dependencies]
+tracing = ["tracewright"]
+
+[tool.uv.sources]
+tracewright = { path = "../agent-flight-recorder/sdk/python", editable = true }
 
 [project.scripts]
 pc = "probable_cause.cli:app"
 
 [dependency-groups]
 dev = [
+    "httpx>=0.28.1",
+    "matplotlib>=3.11.2",
     "mypy>=1.13",
     "pytest>=8.3",
     "ruff>=0.8",
     "testcontainers[postgres]>=4.9",
+    "types-pyyaml>=6.0.12.20260906",
+    "types-tqdm>=4.70.0.20260906",
 ]
 
 [build-system]
@@ -38,8 +57,10 @@ strict = true
 python_version = "3.13"
 files = ["src", "tests", "scripts"]
 
+plugins = ["pydantic.mypy"]
+
 [[tool.mypy.overrides]]
-module = ["testcontainers.*"]
+module = ["testcontainers.*", "tracewright.*", "openai.*", "anthropic.*", "bm25s.*", "Stemmer"]
 ignore_missing_imports = true
 
 [tool.pytest.ini_options]

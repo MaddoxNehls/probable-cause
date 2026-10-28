@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The NTSB concluded that the pilot inadvertently moved the fuel selector handle to the off position, which starved the engine of fuel and caused the total loss of power. [20180323X75727:probable_cause] The engine failed about 1 minute after he switched from the left tank to the right to balance the load, so it was likely that he turned the selector to off rather than to the right tank. [20180323X75727:analysis][20180323X75727:factual] The pilot routinely flew a similar model with a different fuel selector configuration, and the accident airplane's selector handle and markings were dissimilar to those of the other airplane. [20180323X75727:analysis][20180323X75727:factual] The right tank still held about 16 gallons and the fuel system showed no preimpact malfunctions or failures, so fuel was available but not reaching the engine. [20180323X75727:analysis][20180323X75727:factual]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3117,
+  "output_tokens": 312,
+  "cost_usd": 0.015584
+ }
+}

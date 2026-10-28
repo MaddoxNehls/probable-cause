@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In several accidents, water contamination of the fuel system led to partial or total loss of engine power. In the College Park Mooney accident, the pilot's inadequate preflight inspection failed to remove all water from the fuel system, resulting in partial power loss on takeoff, and the owners' improper maintenance allowed water to intrude [20210404102860:analysis]. In the Pembroke Pines Mooney accident, water found throughout the fuel system, likely from condensation, was not detected on preflight and likely caused a total loss of engine power [20231026193311:analysis]. In the Davis City Cessna 150 accident, water contamination in the right-wing tank and throughout the fuel system likely caused the engine to lose power, even though the pilot had found severe contamination and proceeded with the flight [20190607X12807:factual]. In the Whitethorn Cirrus SR22 accident, water in the fuel manifold assembly tested positive and likely caused the total loss of engine power, though how the water entered could not be determined [20240311193914:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3813,
+  "output_tokens": 361,
+  "cost_usd": 0.018858
+ }
+}

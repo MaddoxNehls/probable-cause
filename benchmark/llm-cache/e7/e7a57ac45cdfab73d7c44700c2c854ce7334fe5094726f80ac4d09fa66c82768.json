@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In these excerpts, pilots lost control because flying into instrument meteorological conditions (clouds) led to spatial disorientation, often after losing outside visual references [20211010104078:analysis][20211012104086:analysis]. Many of the pilots were not instrument-rated or lacked recent instrument or night experience, which made disorientation more likely [20200520X84956:analysis][20190924X03137:analysis][20180326X01910:analysis][20201206102378:analysis]. Dark night conditions and lack of visual references, such as over farm fields, also contributed [20180326X01910:analysis][20221205106408:analysis]. As for how often it is fatal, all eight accidents in the excerpts had a highest injury of Fatal [20200520X84956:analysis][20190610X53445:analysis][20190924X03137:analysis][20180326X01910:analysis][20211010104078:analysis][20201206102378:analysis][20221205106408:analysis][20211012104086:analysis]. The excerpts do not give a overall fatality rate, because they include only fatal accidents and no non-fatal cases.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3287,
+  "output_tokens": 383,
+  "cost_usd": 0.016974
+ }
+}

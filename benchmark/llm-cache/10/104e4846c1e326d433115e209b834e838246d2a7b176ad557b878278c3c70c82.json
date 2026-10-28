@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In the excerpts provided, there was one fatal Part 121 accident in 2018: Southwest Airlines flight 1380 on April 17, 2018, in which a passenger was fatally injured after a left engine failure [20180417X23642:factual]. This count covers only the events in the excerpts and may not be the full total for 2018. The other 2018 events shown were not fatal Part 121 accidents: the Baltimore gate collision had no injuries [20180507X00658:factual], the Phoenix galley burn was a serious injury [20180613X62240:factual], and the fatal Scottsdale crash was a Part 91 personal flight [20180410X32846:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5205,
+  "output_tokens": 359,
+  "cost_usd": 0.024406
+ }
+}

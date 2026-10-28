@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The accident was consistent with an aerodynamic stall following a loss of airspeed while the pilot maneuvered at low altitude. [20200821X74853:analysis] Two witnesses saw the airplane make a steep turn and then lose altitude. [20200821X74853:analysis] Examination of the airframe and engine found no preimpact abnormalities that would have contributed to the accident, and engine monitor data showed no anomalies in engine parameters before the recording ended. [20200821X74853:analysis]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5047,
+  "output_tokens": 186,
+  "cost_usd": 0.022044
+ }
+}

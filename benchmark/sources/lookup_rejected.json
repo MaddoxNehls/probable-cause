@@ -1,0 +1,51 @@
+[
+ {
+  "ev_id": "20181228X54652",
+  "question": "What caused a Robinson R22 helicopter to land hard during a student training flight in a right traffic pattern at low altitude over a golf course near Hayward, California, in 2018?",
+  "reasons": [
+   "cause_overlap=0.56"
+  ]
+ },
+ {
+  "ev_id": "20180414X54455",
+  "question": "What caused a Textron G58 Baron to land hard and porpoise at Easton, Maryland, in 2018, after the pilot struggled with a front passenger seatback during final approach in gusty wind?",
+  "reasons": [
+   "cause_overlap=0.50"
+  ]
+ },
+ {
+  "ev_id": "20180709X51341",
+  "question": "What was the cause of substantial left wing damage to a Piper PA28 during a night training takeoff roll at Rolla, Missouri, in 2018?",
+  "reasons": [
+   "cause_overlap=0.50"
+  ]
+ },
+ {
+  "ev_id": "20220308104739",
+  "question": "What led a tailwheel Piper PA-22-150 to ground loop and leave the runway after a bounced landing in Bonners Ferry, Idaho, in 2022?",
+  "reasons": [
+   "cause_overlap=0.50"
+  ]
+ },
+ {
+  "ev_id": "20230310106856",
+  "question": "What caused a Hughes 269A helicopter to land hard and have its main rotor strike the tail boom during a demonstration 180-degree autorotation in an open field near Titusville, Florida in 2023?",
+  "reasons": [
+   "cause_overlap=0.50"
+  ]
+ },
+ {
+  "ev_id": "20250122199578",
+  "question": "What led to a SOCATA TBM 700 striking its right wing on the runway during the landing flare at Wilmington, North Carolina in 2025?",
+  "reasons": [
+   "cause_overlap=0.57"
+  ]
+ },
+ {
+  "ev_id": "20251002201770",
+  "question": "Why did a tailwheel airplane bounce twice and ground loop after the pilot took the controls from a pilot-rated passenger during landing at Ridgeland, South Carolina in 2025?",
+  "reasons": [
+   "cause_overlap=0.57"
+  ]
+ }
+]

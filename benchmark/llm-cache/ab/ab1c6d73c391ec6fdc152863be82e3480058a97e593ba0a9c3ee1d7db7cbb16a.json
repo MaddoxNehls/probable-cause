@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The airplane veered left off the runway because the left main gear spring assembly separated from the underside of the fuselage during the takeoff roll. [20230921193112:factual] The assembly failed due to fatigue cracking and overload stresses, with the fatigue crack likely initiated by corrosion under the primer paint and inside the dimples of the shot-peened area. [20230921193112:analysis] The corrosion was likely present before the zinc-rich primer was applied in March 2010, and its inadequate removal allowed the crack to propagate until overstress failure. [20230921193112:analysis] The NTSB determined the probable cause was the failure of the left main landing gear spring assembly due to a fatigue crack, with improper maintenance that allowed corrosion to develop contributing. [20230921193112:probable_cause]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3543,
+  "output_tokens": 286,
+  "cost_usd": 0.017028
+ }
+}

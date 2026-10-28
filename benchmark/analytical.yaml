@@ -1,0 +1,186 @@
+# Hand-written analytical questions. Gold events come from `gold_where`, a SQL predicate over
+# events e and narratives n (probable-cause text and coded fields), restricted to the 2018+
+# retrieval corpus. Gold answers summarize what those probable-cause statements say; they
+# were written after reading a sample of each gold set. Large gold sets are expected here:
+# retrieval metrics use capped recall, |gold ∩ top-k| / min(|gold|, k).
+questions:
+  - question: What usually leads to carburetor icing accidents?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%carburetor ic%'
+    gold_answer: >-
+      A partial or total loss of engine power from carburetor icing, usually because the
+      pilot did not apply carburetor heat, or applied it too late, in conditions conducive
+      to carburetor ice (often at reduced or glide power).
+  - question: Why do pilots lose control of the aircraft after flying into clouds, and how often is it fatal?
+    gold_where: >-
+      e.ev_date >= '2018-01-01' AND e.highest_injury = 'Fatal'
+      AND n.probable_cause ILIKE '%spatial disorientation%'
+    gold_answer: >-
+      VFR flight into instrument meteorological conditions (or night/low-visibility
+      conditions) leads to spatial disorientation and loss of airplane control; these
+      accidents are typically fatal and often involve non-instrument-rated pilots and
+      inadequate preflight weather planning.
+  - question: What role did water in the fuel play in engine failures?
+    gold_where: >-
+      e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%water%'
+      AND n.probable_cause ILIKE '%fuel%'
+    gold_answer: >-
+      Water contamination of the fuel caused partial or total loss of engine power; the
+      pilot's inadequate preflight inspection (not sampling/sumping the fuel) or improper
+      fuel storage/fueling allowed the water into the engine.
+  - question: Why do agricultural aircraft hit power lines and wires?
+    gold_where: >-
+      e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%wire%'
+      AND EXISTS (SELECT 1 FROM aircraft a WHERE a.ev_id = e.ev_id AND a.far_part = '137')
+    gold_answer: >-
+      During low-altitude application passes the pilot failed to see and avoid (or maintain
+      clearance from) known or unmarked wires and power lines, sometimes due to sun glare,
+      distraction or inadequate preflight survey of the area.
+  - question: What causes helicopter loss of tail rotor effectiveness accidents?
+    gold_where: >-
+      e.ev_date >= '2018-01-01'
+      AND n.probable_cause ILIKE '%loss of tail rotor effectiveness%'
+    gold_answer: >-
+      The pilot's failure to maintain yaw control in conditions conducive to loss of tail
+      rotor effectiveness (low airspeed, high power, tailwind or crosswind), resulting in an
+      uncommanded yaw/spin and loss of control.
+  - question: How does high density altitude contribute to takeoff and climb accidents?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%density altitude%'
+    gold_answer: >-
+      High density altitude degraded aircraft climb performance; pilots attempted takeoff or
+      climb (often heavy, from short or high-elevation strips) without adequately accounting
+      for performance, resulting in failure to climb, stalls, or collisions with terrain.
+  - question: What kinds of accidents were caused by bird strikes?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* '\mbirds?\M'
+    gold_answer: >-
+      In-flight collisions with birds damaged windscreens, wings, rotors or engines (causing
+      power loss), sometimes leading to forced landings or loss of control; bird strikes on
+      takeoff and landing were also common.
+  - question: What accidents involved unmanned aircraft or drones?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* 'unmanned|drone'
+    gold_answer: >-
+      Collisions between manned aircraft and small unmanned aircraft (drones), or loss of
+      control/flight-termination failures of unmanned aircraft, typically attributed to the
+      remote pilot's failure to see and avoid or to maintain control.
+  - question: How often was pilot incapacitation from a medical condition the cause of an accident?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%incapacitat%'
+    gold_answer: >-
+      Pilot incapacitation from medical conditions (most often cardiovascular disease such as
+      a heart attack or arrhythmia) led to loss of control; these accidents are usually fatal.
+  - question: Which accidents did the NTSB attribute to the pilot being impaired by drugs or medication?
+    gold_where: >-
+      e.ev_date >= '2018-01-01'
+      AND n.probable_cause ~* 'impairment by|impaired by|use of (an )?impairing'
+    gold_answer: >-
+      Accidents where toxicology found impairing substances (e.g. sedating antihistamines,
+      opioids, ethanol, marijuana) and the pilot's impairment contributed to poor decisions
+      or loss of control.
+  - question: What happens when a light aircraft encounters wake turbulence from a larger aircraft?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%wake turbulence%'
+    gold_answer: >-
+      An encounter with wake turbulence from a preceding (usually larger) aircraft caused a
+      loss of control at low altitude during takeoff or landing, often because the pilot did
+      not maintain adequate separation or avoid the wake.
+  - question: Why do pilots land with the landing gear retracted?
+    gold_where: >-
+      e.ev_date >= '2018-01-01'
+      AND n.probable_cause ~* 'failure to extend the landing gear'
+    gold_answer: >-
+      The pilot failed to extend the landing gear before landing, typically from distraction,
+      not using the before-landing checklist, or task saturation (e.g. during a go-around or
+      training), resulting in a gear-up landing.
+  - question: What role do mountain downdrafts play in accidents?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%downdraft%'
+    gold_answer: >-
+      Downdrafts (often in mountainous terrain or near ridges) exceeded the aircraft's climb
+      capability, leading to impact with terrain or trees; pilots' decisions to fly in such
+      conditions or at low altitude were frequently cited.
+  - question: Have any accidents been caused by carbon monoxide poisoning?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%carbon monoxide%'
+    gold_answer: >-
+      Yes; exhaust system leaks (cracked mufflers/heat exchangers) let carbon monoxide into
+      the cabin and impaired or incapacitated the pilot, leading to loss of control.
+  - question: What engine failures were traced to connecting rod problems?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%connecting rod%'
+    gold_answer: >-
+      Total loss of engine power from connecting rod failures, typically due to fatigue,
+      improper torque of connecting rod bolts during maintenance, or oil starvation and
+      bearing failure.
+  - question: Why do seaplane pilots crash when landing on glassy water?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%glassy%'
+    gold_answer: >-
+      Glassy water conditions made it hard for the pilot to judge height above the surface;
+      the pilot failed to use (or properly execute) a glassy-water landing technique and the
+      floatplane impacted the water and nosed over.
+  - question: What accidents happened because a gust lock or control lock was left installed?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* 'gust lock|control lock'
+    gold_answer: >-
+      The pilot did not remove the gust/control lock before takeoff (an inadequate preflight
+      inspection or checklist use), so the aircraft could not be controlled or rotated,
+      resulting in a runway excursion or loss of control on takeoff.
+  - question: What were the outcomes when aircraft flew into thunderstorms?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%thunderstorm%'
+    gold_answer: >-
+      Flight into or near thunderstorms led to severe turbulence, in-flight breakups or loss
+      of control, often after inadequate weather planning or continued flight toward known
+      convective activity.
+  - question: What typically goes wrong in hot air balloon accidents?
+    gold_where: >-
+      e.ev_date >= '2018-01-01'
+      AND EXISTS (SELECT 1 FROM aircraft a WHERE a.ev_id = e.ev_id AND a.category = 'Balloon')
+    gold_answer: >-
+      Hard landings in high or gusty winds (with passengers injured), collisions with power
+      lines, and the pilot's decision to fly when winds exceeded safe limits.
+  - question: What causes glider accidents involving aerotow?
+    gold_where: >-
+      e.ev_date >= '2018-01-01' AND n.probable_cause ILIKE '%tow%'
+      AND EXISTS (SELECT 1 FROM aircraft a WHERE a.ev_id = e.ev_id AND a.category = 'Glider')
+    gold_answer: >-
+      Loss of control or improper positioning during aerotow (e.g. getting out of position
+      behind the tow plane), premature or failed tow releases, and inadequate pre-launch
+      checks.
+  - question: Which accidents involved airframe or structural icing?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* 'structural icing|airframe icing'
+    gold_answer: >-
+      Flight into known or forecast icing conditions led to structural ice accumulation,
+      degraded performance and aerodynamic stalls or loss of control, frequently in airplanes
+      not certified for flight in icing.
+  - question: How often did improper maintenance cause accidents?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* 'maintenance personnel'
+    gold_answer: >-
+      Maintenance personnel's improper installation, inspection or repair (e.g. misrigged
+      controls, unsecured fittings, improper torque) caused system failures or loss of engine
+      power.
+  - question: What accidents involved magneto failures?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* 'magneto'
+    gold_answer: >-
+      Magneto failures or improper magneto timing/maintenance caused partial or total loss of
+      engine power, leading to forced landings.
+  - question: What happened when aircraft hit deer or other animals on runways?
+    gold_where: e.ev_date >= '2018-01-01' AND n.probable_cause ~* '\mdeer\M|\melk\M|animal'
+    gold_answer: >-
+      Collisions with deer, elk or other animals on the runway during takeoff or landing
+      damaged the aircraft and caused loss of directional control or runway excursions.
+  - question: Why did fatal Part 135 accidents happen?
+    gold_where: >-
+      e.ev_date >= '2018-01-01' AND e.highest_injury = 'Fatal'
+      AND EXISTS (SELECT 1 FROM aircraft a WHERE a.ev_id = e.ev_id AND a.far_part = '135')
+    gold_answer: >-
+      Fatal on-demand charter and commuter accidents were dominated by controlled flight into
+      terrain and loss of control in instrument or night conditions, often linked to
+      operational pressure, inadequate weather planning, and weak operator safety oversight.
+  # Unanswerable from the corpus: the system should refuse.
+  - question: What caused the Ethiopian Airlines Flight 302 Boeing 737 MAX crash in 2019?
+    answerable: false
+    gold_answer: Insufficient evidence; a foreign investigation with no NTSB narrative.
+  - question: What did the NTSB conclude about the 1996 explosion of TWA Flight 800?
+    answerable: false
+    gold_answer: Insufficient evidence; the corpus starts in 2018.
+  - question: Why did the Space Shuttle Columbia break up during reentry?
+    answerable: false
+    gold_answer: Insufficient evidence; not an NTSB aviation investigation in this corpus.
+  - question: What caused the Titan submersible to implode in 2023?
+    answerable: false
+    gold_answer: Insufficient evidence; a marine event, not an aviation investigation.
+  - question: What was the probable cause of the disappearance of Malaysia Airlines Flight 370?
+    answerable: false
+    gold_answer: Insufficient evidence; a foreign investigation not in this corpus.

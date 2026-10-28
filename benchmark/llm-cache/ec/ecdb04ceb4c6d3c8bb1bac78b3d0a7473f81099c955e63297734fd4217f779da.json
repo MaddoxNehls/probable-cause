@@ -1,0 +1,10 @@
+{
+ "tag": "judge/section+hybrid+rerank+rewrite/0",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"L012\",\"correct\":true,\"reason\":\"Matches: inadvertent selection of fuel selector to off causing fuel starvation.\"},{\"id\":\"L023\",\"correct\":true,\"reason\":\"Matches failure to set throttle friction lock and parking brake malfunction.\"},{\"id\":\"L034\",\"correct\":true,\"reason\":\"Matches high density altitude and gusting wind degraded performance, plus contributing pilot factors.\"},{\"id\":\"L045\",\"correct\":false,\"reason\":\"Answer says no cause determined and omits the pilot's decision to depart from a contaminated runway and failure to abort timely.\"},{\"id\":\"L056\",\"correct\":true,\"reason\":\"Matches aerodynamic stall from loss of airspeed while maneuvering at low altitude.\"},{\"id\":\"L078\",\"correct\":true,\"reason\":\"Matches improper landing flare and remedial action resulting in hard bounced landing.\"},{\"id\":\"L089\",\"correct\":true,\"reason\":\"Matches catastrophic engine failure from oil starvation at night over mountains.\"},{\"id\":\"S001\",\"correct\":true,\"reason\":\"Gives one fatal Part 121 accident in 2018, Southwest 1380, which is DCA18MA142; the caveat is fine.\"},{\"id\":\"S014\",\"correct\":true,\"reason\":\"Identifies WPR18MA087 as the only one.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Covers conditions conducive to icing and pilot's failure to use carb heat, at glide/low power.\"},{\"id\":\"A002\",\"correct\":true,\"reason\":\"Spatial disorientation after entering IMC, non-instrument-rated pilots, fatal outcomes; consistent with reference.\"},{\"id\":\"A003\",\"correct\":true,\"reason\":\"Water contamination caused power loss with pilot preflight inspection shortcomings; consistent with reference.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4951,
+  "output_tokens": 614,
+  "cost_usd": 0.02594
+ }
+}

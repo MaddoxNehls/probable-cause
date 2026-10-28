@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In these excerpts, LTE accidents were attributed mainly to pilots failing to account for environmental conditions conducive to LTE, such as disturbed air or wind [20190714X00745:analysis][20190730X15341:analysis]. Low forward speed, altitude above the ramp, and a right turn were conducive conditions in one accident [20190730X15341:analysis]. Other cited factors included failing to maintain forward airspeed and power on final approach, operating out of ground effect, and failing to compensate for an unanticipated right yaw [20190928X04048:analysis][20211007104067:analysis]. A high altitude, high gross weight landing with insufficient tail rotor thrust was also cited [20180201X35955:analysis]. An inappropriate power application during recovery, with increased collective, contributed in one case [20190714X00745:analysis]. Separately, one accident involved a loss of tail rotor antitorque control from an improperly secured crosshead drive plate, though that was a maintenance error and not described as LTE [20220604105184:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3052,
+  "output_tokens": 367,
+  "cost_usd": 0.015874
+ }
+}

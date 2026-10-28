@@ -1,0 +1,8 @@
+# End-to-end baseline: naive fixed-size chunks, BM25, no reranker, no LLM query rewrite.
+# 26-question stratified subset (13 lookup, 8 structured, 5 analytical incl. 2 unanswerable),
+# shrunk from ~60 to fit the 130-call claude -p budget across three configs plus the judge.
+name: end-to-end-baseline
+mode: end_to_end
+subset: {lookup: 13, structured: 8, analytical: 5}
+configs:
+  - {strategy: fixed, method: bm25, rerank: false, rewrite: false}

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The NTSB probable cause for the Cessna 170B accident in Tacoma, Washington was the pilot's failure to maintain directional control during landing. [20240702194598:probable_cause] The excerpts do not mention a three-point landing, variable winds, or a ground loop for this accident, so only the directional control cause is supported.[20240702194598:probable_cause]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3724,
+  "output_tokens": 141,
+  "cost_usd": 0.016302
+ }
+}

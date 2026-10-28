@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The pilot inadvertently moved the fuel selector handle to the off position when switching tanks, which starved the engine of fuel and caused a total loss of power. [20180323X75727:probable_cause][20180323X75727:analysis] The engine began to cough and shut down about 1 minute after he switched from the left tank to the right to balance the load. [20180323X75727:factual] The right tank still held about 16 gallons and the fuel system showed no preimpact malfunctions, so fuel was available but was not reaching the engine. [20180323X75727:analysis] The pilot normally flew a similar airplane with a different fuel selector configuration, and the accident airplane's selector handle and markings differed from it. [20180323X75727:analysis][20180323X75727:factual]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2421,
+  "output_tokens": 271,
+  "cost_usd": 0.01239
+ }
+}

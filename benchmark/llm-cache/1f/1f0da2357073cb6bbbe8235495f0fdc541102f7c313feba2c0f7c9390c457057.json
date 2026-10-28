@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In all eight excerpted accidents, water in or contaminating the fuel was cited as the cause of the loss of engine power. Some resulted in partial power loss [20230118106592:probable_cause][20210223102661:probable_cause] and others in total power loss [20240311193914:probable_cause][20190713X95619:probable_cause][20190910X65550:probable_cause]. Several probable causes tied the water to pilot preflight shortcomings, such as failing to remove all water from the fuel tank or to detect it during preflight inspection [20230118106592:probable_cause][20221230106513:probable_cause][20240925195193:probable_cause][20190713X95619:probable_cause][20190910X65550:probable_cause]. In the Chalkyitsik accident, the operator's failure to ensure replacement filters were available during refueling also contributed [20240925195193:probable_cause]. One excerpt simply attributes the power loss to water in the fuel lines [20181002X60231:probable_cause].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 1871,
+  "output_tokens": 348,
+  "cost_usd": 0.010960000000000001
+ }
+}

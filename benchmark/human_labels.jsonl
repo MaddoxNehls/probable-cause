@@ -1,0 +1,44 @@
+{"config": "fixed+bm25", "id": "A001", "correct": true, "note": "conditions plus carburetor heat use; borderline, it never states the failure to apply heat as the cause"}
+{"config": "fixed+bm25", "id": "A002", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "A003", "correct": false, "note": "says no water-related failure was found"}
+{"config": "fixed+bm25", "id": "L001", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "L023", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "L034", "correct": true, "note": "names high density altitude reducing climb performance, the reference's main cause; omits gusts and pilot inexperience"}
+{"config": "fixed+bm25", "id": "L045", "correct": true, "note": "states the NTSB probable cause verbatim"}
+{"config": "fixed+bm25", "id": "L078", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "L089", "correct": false, "note": "describes engine damage but never concludes oil starvation"}
+{"config": "fixed+bm25", "id": "L100", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "S001", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "S014", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "S027", "correct": true, "note": ""}
+{"config": "fixed+bm25", "id": "S040", "correct": false, "note": "answers 0, reference is 6"}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "A001", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "A002", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "A003", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L012", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L023", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L034", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L045", "correct": false, "note": "describes conditions only; no decision to depart or failure to abort"}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L056", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L078", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L089", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "L100", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "S001", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "S014", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "S027", "correct": true, "note": ""}
+{"config": "parent_child+hybrid+rerank+rewrite", "id": "S040", "correct": false, "note": "answers 3, reference is 6"}
+{"config": "section+hybrid+rerank+rewrite", "id": "A001", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "A002", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "A003", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L012", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L023", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L034", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L045", "correct": false, "note": "describes conditions only; no decision to depart or failure to abort"}
+{"config": "section+hybrid+rerank+rewrite", "id": "L056", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L078", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L089", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L100", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "L133", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "S001", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "S014", "correct": true, "note": ""}
+{"config": "section+hybrid+rerank+rewrite", "id": "S027", "correct": true, "note": ""}

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The engine's No. 2 cylinder had seized, and a teardown found corrosion on the cylinder walls and internal components of that cylinder. [20240226193834:factual] The airplane's Rotax 582 2-stroke engine showed internal corrosion, and no other preimpact anomalies were noted. [20240226193834:factual] The records showed no maintenance entries indicating the engine's storage preservation procedures had been completed, although the engine manual details them. [20240226193834:factual] The most recent maintenance entry was a condition inspection dated November 6, 2016. [20240226193834:factual]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4675,
+  "output_tokens": 218,
+  "cost_usd": 0.020876
+ }
+}

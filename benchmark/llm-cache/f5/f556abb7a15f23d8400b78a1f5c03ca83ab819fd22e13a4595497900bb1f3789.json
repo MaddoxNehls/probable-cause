@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Among the excerpts, one fatal gyroplane accident in Georgia in 2019 is present: the November 4, 2019 accident of a Tango2 gyroplane (N875FV) near Cedartown, Georgia, in which the pilot was fatally injured during a test flight [20191104X50805:factual]. The other 2019 fatal gyroplane accident in the excerpts occurred in Hawley, Minnesota, not Georgia [20190711X60234:factual]. The Georgia accident in Gainesville occurred in 2023, not 2019 [20230325106954:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4946,
+  "output_tokens": 214,
+  "cost_usd": 0.02192
+ }
+}

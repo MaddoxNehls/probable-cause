@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Based on the excerpts provided, there is 1 fatal Part 121 accident in 2018: the April 17, 2018 Southwest Airlines flight 1380 accident near Philadelphia, in which 1 passenger was fatally injured [20180417X23642:analysis][20180417X23642:factual]. This count covers only the events present in the excerpts and may not represent all such accidents in 2018 [20180417X23642:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2655,
+  "output_tokens": 164,
+  "cost_usd": 0.012256
+ }
+}

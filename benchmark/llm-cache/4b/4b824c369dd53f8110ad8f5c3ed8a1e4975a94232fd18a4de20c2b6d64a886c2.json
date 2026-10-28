@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Based only on the excerpts provided, three 2023 accidents involved an approach at night in instrument meteorological conditions. The first was the San Diego Cessna P210N accident, a night flight in IMC during an ILS approach, which ended in fuel exhaustion [20231116193391:analysis][20231116193391:probable_cause]. The second was the Murrieta Cessna 550 accident, an early-morning night flight in which the airplane was on an instrument approach in a 300 ft overcast with fog and descended below the decision altitude without visual references [20230708192559:analysis]. The third was the Cleveland, TX Cessna 172L accident, a night VFR flight into IMC that struck trees on final approach [20230130106657:probable_cause]. The Rayville accident involved VFR flight into IMC on approach, but the excerpt does not say it was at night, so I did not count it [20230707192556:probable_cause].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4070,
+  "output_tokens": 612,
+  "cost_usd": 0.022396
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Among the excerpts provided, there is one fatal Part 121 accident in 2018: Southwest Airlines flight 1380 on April 17, 2018, which was a regularly scheduled domestic passenger flight operated under 14 CFR Part 121 and resulted in one passenger fatality [20180417X23642:factual]. This count covers only the events present in the excerpts, and it is not a complete count of all such accidents in 2018 [20180417X23642:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2725,
+  "output_tokens": 174,
+  "cost_usd": 0.012636000000000001
+ }
+}

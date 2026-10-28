@@ -1,0 +1,10 @@
+{
+ "tag": "judge/parent_child+hybrid+rerank+rewrite/0",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"L012\",\"correct\":true,\"reason\":\"Same cause: inadvertent selection of fuel selector to off causing fuel starvation.\"},{\"id\":\"L023\",\"correct\":true,\"reason\":\"Matches failure to set throttle friction lock and parking brake malfunction.\"},{\"id\":\"L034\",\"correct\":true,\"reason\":\"Matches degraded performance from density altitude and gusts, plus contributing pilot factors.\"},{\"id\":\"L045\",\"correct\":false,\"reason\":\"Answer says no determined cause and gives the pilot's account; it misses the pilot's decision to depart from a contaminated runway and failure to abort in time.\"},{\"id\":\"L056\",\"correct\":true,\"reason\":\"Aerodynamic stall following loss of airspeed while maneuvering at low altitude matches.\"},{\"id\":\"L078\",\"correct\":true,\"reason\":\"Improper landing flare and remedial action resulting in hard bounced landing matches.\"},{\"id\":\"L089\",\"correct\":true,\"reason\":\"Catastrophic engine failure from oil starvation at night over mountains matches.\"},{\"id\":\"S001\",\"correct\":true,\"reason\":\"Count of 1 matches (Southwest 1380, DCA18MA142).\"},{\"id\":\"S040\",\"correct\":false,\"reason\":\"Answer gives 3 accidents, reference is 6.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Captures failure to apply carb heat in time in icing-conducive conditions.\"},{\"id\":\"A002\",\"correct\":true,\"reason\":\"Identifies spatial disorientation after entering IMC, lack of instrument training, and fatal outcomes.\"},{\"id\":\"A003\",\"correct\":true,\"reason\":\"Water contamination causing power loss tied to inadequate preflight inspection; matches reference.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4949,
+  "output_tokens": 586,
+  "cost_usd": 0.025652
+ }
+}

@@ -1,0 +1,8 @@
+# End-to-end runs for the two best retrieval configs from the grid (recall@10, MRR tie-break),
+# on the same 26-question subset as end-to-end-baseline.yaml.
+name: end-to-end-best
+mode: end_to_end
+subset: {lookup: 13, structured: 8, analytical: 5}
+configs:
+  - {strategy: section, method: hybrid, rerank: true, rewrite: true}
+  - {strategy: parent_child, method: hybrid, rerank: true, rewrite: true}

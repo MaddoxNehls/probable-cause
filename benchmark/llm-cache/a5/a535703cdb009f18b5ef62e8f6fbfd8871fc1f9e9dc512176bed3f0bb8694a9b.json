@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The engine suffered a catastrophic failure due to oil starvation, which caused a total loss of engine power at night over mountainous terrain. [20220915105942:probable_cause] The Nos. 3, 4, 5, and 6 connecting rods likely failed as a result of oil starvation, and the connecting rod journals were blackened, scored, melted, and missing base metal. [20220915105942:analysis][20220915105942:factual] About 1 quart of oil remained in the sump, and the crankshaft could not be rotated by hand. [20220915105942:factual] The investigation could not determine why the oil starvation or loss occurred because of fire and impact damage. [20220915105942:analysis]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3183,
+  "output_tokens": 248,
+  "cost_usd": 0.015208
+ }
+}

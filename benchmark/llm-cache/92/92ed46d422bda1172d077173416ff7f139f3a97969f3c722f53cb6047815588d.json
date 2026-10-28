@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The NTSB attributed the accident to the pilot's improper landing flare and remedial action, which resulted in a hard, bounced landing [20221013106119:probable_cause]. The pilot said the winds were shifting on approach, but he was confident a landing could be achieved [20221013106119:probable_cause]. The airplane touched down hard and bounced, and when he eased back pressure on the yoke the nose lowered and the nose wheel struck the ground [20221013106119:probable_cause]. This substantially damaged the forward fuselage and firewall [20221013106119:probable_cause]. The pilot said the accident could have been avoided by applying full power and going around after the first touchdown [20221013106119:probable_cause].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4420,
+  "output_tokens": 256,
+  "cost_usd": 0.020236
+ }
+}

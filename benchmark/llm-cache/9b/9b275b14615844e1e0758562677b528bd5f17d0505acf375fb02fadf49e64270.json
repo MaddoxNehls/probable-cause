@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Based on the excerpts provided, one 2020 accident fits: the Maule MT-7 near Swansboro, NC, which made a turning descent into water while enroute in night instrument meteorological conditions [20200324X34735:analysis]. The Seeley Lake, MT Cessna 172 accident in 2020 involved night IMC but occurred during a visual approach to the airport, not the enroute phase [20200913X42027:analysis]. The excerpt for the Eatonton, GA accident in 2020 does not state the phase of flight or night IMC conditions [20200605X80257:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3323,
+  "output_tokens": 333,
+  "cost_usd": 0.016618
+ }
+}

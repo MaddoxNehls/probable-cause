@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The oil filter safety wire was fractured and separated, which led to oil loss [20211117104258:factual]. Oil was found along the bottom and right side of the airplane and inside the cowling near the oil filter [20211117104258:factual]. The pilot reported smoke filling the cockpit and zero oil pressure, and the engine then lost total power during descent [20211117104258:factual]. The excerpts also note that the owner-performed installation was done with no guidance beyond the pilot having \\\"just installed it\\\" [20211117104258:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4508,
+  "output_tokens": 196,
+  "cost_usd": 0.019988
+ }
+}

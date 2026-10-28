@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In all eight excerpted accidents, the cited cause was spatial disorientation after the aircraft entered instrument meteorological conditions (clouds, fog or precipitation), followed by loss of control. [20200520X84956:probable_cause][20210630103391:probable_cause][20240826194999:probable_cause][20211010104078:analysis][20211012104086:analysis][20180331X11926:probable_cause][20200928102050:probable_cause][20191030X52912:probable_cause] In the Cornwall helicopter accident, flying into clouds and precipitation likely cost the pilot his outside visual references, which is an environment conducive to spatial disorientation. [20211010104078:analysis] Several of these pilots were not instrument-rated, and in the Cornwall case the pilot had no instrument training and the helicopter was not certified for instrument conditions, which increased the likelihood of disorientation. [20200520X84956:probable_cause][20210630103391:probable_cause][20240826194999:probable_cause][20211010104078:analysis] Other factors included self-imposed pressure to depart, and in one case a vacuum pump failure with its associated instruments. [20210630103391:probable_cause][20191030X52912:probable_cause] All eight accidents in the excerpts had a highest injury level of Fatal. [20200520X84956:probable_cause][20210630103391:probable_cause][20240826194999:probable_cause][20211010104078:analysis][20211012104086:analysis][20180331X11926:probable_cause][20200928102050:probable_cause][20191030X52912:probable_cause] The excerpts contain only fatal events, so they cannot show how often such encounters overall are fatal. [20200520X84956:probable_cause][20210630103391:probable_cause][20240826194999:probable_cause][20211010104078:analysis][20211012104086:analysis][20180331X11926:probable_cause][20200928102050:probable_cause][20191030X52912:probable_cause]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 2223,
+  "output_tokens": 904,
+  "cost_usd": 0.017928
+ }
+}

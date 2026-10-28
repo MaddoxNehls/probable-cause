@@ -1,0 +1,10 @@
+{
+ "tag": "judge/fixed+bm25/0",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"L001\",\"correct\":true,\"reason\":\"Matches: failure to maintain clearance from trees due to sun glare.\"},{\"id\":\"L023\",\"correct\":true,\"reason\":\"Failure to set throttle friction lock plus parking brake malfunction, matching reference.\"},{\"id\":\"L034\",\"correct\":false,\"reason\":\"Mentions high density altitude but gives no probable cause, omits gusting wind and pilot's decision/lack of experience; hedges and speculates about landing on road.\"},{\"id\":\"L045\",\"correct\":true,\"reason\":\"Matches decision to depart contaminated runway, failure to abort, limited visibility contributing.\"},{\"id\":\"L078\",\"correct\":true,\"reason\":\"Improper landing flare and remedial action causing hard bounced landing.\"},{\"id\":\"L089\",\"correct\":false,\"reason\":\"Describes engine damage but explicitly does not identify oil starvation as cause; does not convey the reference cause.\"},{\"id\":\"L100\",\"correct\":true,\"reason\":\"Fatigue crack of left main gear spring with improper maintenance allowing corrosion.\"},{\"id\":\"S001\",\"correct\":true,\"reason\":\"Identifies one fatal Part 121 accident, Southwest 1380 (DCA18MA142), matching count of 1.\"},{\"id\":\"S014\",\"correct\":true,\"reason\":\"Identifies WPR18MA087 as the only one.\"},{\"id\":\"S027\",\"correct\":true,\"reason\":\"Identifies WPR24FA112.\"},{\"id\":\"S040\",\"correct\":false,\"reason\":\"Answered zero; reference count is 6.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Covers carb ice conditions, use of carb heat, glide/low power; consistent with reference, though framed around pilot practices rather than explicit failure to apply heat.\"},{\"id\":\"A002\",\"correct\":true,\"reason\":\"Covers VFR into IMC causing spatial disorientation, non-instrument-rated pilots, often fatal.\"},{\"id\":\"A003\",\"correct\":false,\"reason\":\"Claims excerpts show no water-in-fuel engine failures; contradicts reference that water contamination caused power loss.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5348,
+  "output_tokens": 708,
+  "cost_usd": 0.028468
+ }
+}

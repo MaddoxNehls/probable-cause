@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"Only one such accident appears in the excerpts: the February 10, 2018 accident of an Airbus Helicopters (Eurocopter) EC130 B4, N155GC, near Peach Springs, Arizona (NTSB WPR18MA087), whose highest injury level was fatal. [20180210X14603:factual] The helicopter was destroyed during a Part 136 air tour flight, and five passengers were fatally injured while the pilot and one passenger sustained serious injuries. [20180210X14603:factual] This answer is limited to the events present in the excerpts, so other Arizona accidents in 2018 are not covered. [20180210X14603:analysis]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5844,
+  "output_tokens": 239,
+  "cost_usd": 0.025762
+ }
+}

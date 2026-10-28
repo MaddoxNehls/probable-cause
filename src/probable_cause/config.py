@@ -32,6 +32,10 @@ class Settings:
     def pdf_dir(self) -> Path:
         return self.raw_dir / "pdf"
 
+    @property
+    def index_dir(self) -> Path:
+        return self.data_dir / "indexes"
+
 
 def load_settings() -> Settings:
     return Settings(

@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In the excerpts, carburetor icing accidents typically involve atmospheric conditions conducive to icing, often serious icing at glide/descent power, as shown by icing probability charts [20190211X72201:factual][20180903X05707:factual][20190907X64846:factual][20210830103775:factual]. One NTSB probable cause cites a total loss of engine power from carburetor icing, with the pilot's failure to use carburetor heat in such conditions as a contributing factor [20200928102040:probable_cause]. Guidance in the excerpts says pilots should use carburetor heat in conditions conducive to icing or at low power settings [20190211X72201:factual][20190907X64846:factual]. Icing can occur well above freezing when there is visible moisture or high humidity [20210830103775:factual]. Not every case with icing-conducive conditions was attributed to icing; one analysis concluded carburetor icing was likely not a factor [20210929103989:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3415,
+  "output_tokens": 338,
+  "cost_usd": 0.017036
+ }
+}

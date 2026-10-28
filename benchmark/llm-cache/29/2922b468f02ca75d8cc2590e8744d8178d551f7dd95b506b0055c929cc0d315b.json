@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The excerpt gives the probable cause as the pilot's loss of control during climb out, which resulted in a collision with a tree [20240603194373:probable_cause]. The excerpts do not mention gusty wind conditions for this accident, and they give no further detail on why control was lost.\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3429,
+  "output_tokens": 110,
+  "cost_usd": 0.014812
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "tag": "judge/fixed+bm25/15",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"A004\",\"correct\":true,\"reason\":\"Answer conveys pilots failing to see/misjudging wires and maintain clearance during low-altitude passes, matching the reference's main theme.\"},{\"id\":\"A005\",\"correct\":true,\"reason\":\"Answer attributes LTE accidents to pilots failing to account for conditions conducive to LTE (low airspeed, wind, power, unanticipated yaw), consistent with the reference.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 1782,
+  "output_tokens": 156,
+  "cost_usd": 0.008683999999999999
+ }
+}

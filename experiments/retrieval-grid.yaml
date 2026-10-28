@@ -1,0 +1,9 @@
+# Full retrieval-only grid: 3 chunkings x 3 retrievers x rerank x rewrite = 36 configs,
+# over every answerable benchmark question. No LLM calls (plans come from plans.jsonl).
+name: retrieval-grid
+mode: retrieval
+grid:
+  strategy: [fixed, section, parent_child]
+  method: [bm25, dense, hybrid]
+  rerank: [false, true]
+  rewrite: [false, true]

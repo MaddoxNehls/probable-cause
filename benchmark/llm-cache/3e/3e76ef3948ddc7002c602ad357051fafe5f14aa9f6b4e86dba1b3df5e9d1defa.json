@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In the excerpts, agricultural pilots hit wires mainly by misjudging or failing to see them while flying low. One pilot misjudged the height of the power wires and struck the lower wire with the right wing [20190517X91436:factual]. Another did not see a wire as he flew out of the field over a transmission line during a final trim pass [20190429X52852:factual]. A third forgot the wires were there and did not see them on a low-level pass [20190602X60904:factual]. In another case the airplane struck a wire after the pilot pulled up from about 20 ft above ground while spraying, even though he had surveyed the field and seen multiple lines beforehand [20181128X42306:factual]. The NTSB probable cause statements in two of these cases cite the pilot's failure to maintain clearance from power lines during low-altitude maneuvering [20190517X91436:factual][20190429X52852:factual]. In the fatal Sumner, IA case, a witness said the airplane was at a very low altitude and struck the power lines in a shallow left turn [20190808X54033:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4402,
+  "output_tokens": 370,
+  "cost_usd": 0.021304
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "tag": "judge/fixed+bm25/15",
+ "completion": {
+  "text": "{\"verdicts\":[{\"id\":\"S009\",\"correct\":false,\"reason\":\"Answered 3 but reference count is 9.\"},{\"id\":\"S017\",\"correct\":true,\"reason\":\"Identifies one fatal glider accident in Washington 2019 (Aug 25, DG 300), consistent with WPR19FA241.\"},{\"id\":\"S025\",\"correct\":true,\"reason\":\"Single Georgia gyroplane accident, Nov 4, 2019 Cedartown, matches ERA20FA029 (filed in FY20).\"},{\"id\":\"S033\",\"correct\":true,\"reason\":\"Single Pikeville R66 Part 137 accident June 2020 matches ERA20LA220.\"},{\"id\":\"A001\",\"correct\":true,\"reason\":\"Cites conducive conditions, glide/low power, and inadequate or absent carburetor heat use, consistent with reference.\"},{\"id\":\"A002\",\"correct\":true,\"reason\":\"Covers IMC leading to spatial disorientation, non-instrument-rated pilots, and fatal outcomes.\"},{\"id\":\"A003\",\"correct\":true,\"reason\":\"Water contamination causing power loss and inadequate preflight inspection, consistent with reference.\"},{\"id\":\"A004\",\"correct\":true,\"reason\":\"Failure to see and avoid or maintain clearance from wires during low-altitude passes matches reference.\"},{\"id\":\"A005\",\"correct\":true,\"reason\":\"Pilot failure to maintain yaw control and account for conditions conducive to LTE, such as low airspeed and wind, consistent with reference.\"}]}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3882,
+  "output_tokens": 506,
+  "cost_usd": 0.020584
+ }
+}

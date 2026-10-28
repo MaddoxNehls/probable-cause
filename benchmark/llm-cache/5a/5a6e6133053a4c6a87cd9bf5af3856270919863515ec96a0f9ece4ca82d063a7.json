@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In the excerpts, pilots lost control after entering instrument meteorological conditions (clouds, fog, or precipitation) because of spatial disorientation. [20200520X84956:probable_cause][20240826194999:probable_cause][20180331X11926:probable_cause][20200928102050:probable_cause][20250314199855:probable_cause] In one case the pilot's lack of instrument training and low visibility were described as conducive to spatial disorientation. [20210425102975:analysis] Another excerpt specified a somatogyral illusion as the type of spatial disorientation. [20250314199855:probable_cause] One accident also listed failure of the vacuum pump and its instruments as a contributing factor. [20191030X52912:probable_cause] All eight accidents in the excerpts had a highest injury of fatal, but the excerpts cover only selected accidents, so they do not show how often such events are fatal overall. [20200520X84956:probable_cause][20210425102975:analysis][20240826194999:probable_cause][20180331X11926:probable_cause][20200928102050:probable_cause][20191030X52912:probable_cause][20220506105050:analysis][20250314199855:probable_cause]\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 3278,
+  "output_tokens": 416,
+  "cost_usd": 0.017268
+ }
+}

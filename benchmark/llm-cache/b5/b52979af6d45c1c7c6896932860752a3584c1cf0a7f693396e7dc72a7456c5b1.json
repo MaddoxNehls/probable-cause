@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"The excerpt does not establish a confirmed cause. The pilot reported that the engine lost all power during initial climb after a touch-and-go at S24 and he made a forced landing into a cornfield about ½ mile northeast of the airport [20230510130452:factual]. The pilot said he was unsure why the engine stopped, but stated it \\\"could be a failure to switch tanks\\\" [20230510130452:factual].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 4670,
+  "output_tokens": 155,
+  "cost_usd": 0.020226
+ }
+}

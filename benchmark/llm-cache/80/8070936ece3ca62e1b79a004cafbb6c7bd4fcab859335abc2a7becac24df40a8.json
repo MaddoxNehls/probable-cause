@@ -1,0 +1,10 @@
+{
+ "tag": "answer",
+ "completion": {
+  "text": "{\"insufficient_evidence\": false, \"answer\": \"In the excerpts, carburetor icing accidents typically involve atmospheric conditions conducive to serious carburetor icing combined with carburetor heat not being used in time. One accident was attributed to a total loss of engine power from carburetor icing after the pilot failed to activate carburetor heat in a timely manner during a prolonged descent [20230709192562:analysis]. Another listed the probable cause as total loss of power due to carburetor icing, with the pilot's failure to use carburetor heat in conducive conditions as a contributing factor [20200928102040:probable_cause]. Conditions were conducive to serious icing at glide and cruise power in another case, where the ice was likely too much for carburetor heat to overcome even after it was applied [20221114106282:analysis]. FAA guidance in the excerpts says pilots should use carburetor heat at low power settings or when icing is probable [20240913195116:factual]. Note that this is based only on the few excerpts provided, and not every power loss was attributed to icing [20220606105192:analysis].\"}",
+  "model": "claude-sonnet-5-5",
+  "input_tokens": 5393,
+  "output_tokens": 361,
+  "cost_usd": 0.025178
+ }
+}
